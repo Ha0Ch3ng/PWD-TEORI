@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box-data{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(245, 255, 211);
+    border-radius: 15px;
+    height: auto;
+    border: 1px black solid;
+}
+
+.box-data input{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.box-data label{
+    margin-left: 10px;
+}
+
+.box-data ::placeholder{
+    padding-left: 0px;
+}
+
+.box-data select{
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+
+.box-data label{
+    font-size: 14px;
+}
+
+.nama{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.no{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.box-data .submit{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(201, 230, 255);
+    font-weight: 400;
+}
+
+.submit:hover{
+    background-color: rgb(70, 168, 255);
+    color: #ecfdf3;
+}
+
+#kartu {
+    display: none;            
+    margin-top: 20px;
+    padding: 20px;
+    background: #ecfdf3;
+    border: 2px solid green;
+    border-radius: 12px;
+  }
+
+#kartu p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+#kartu h2 {
+    color: green;
+  }
+
+#peringatanNama {
+    color: red;
+    margin-top: 5px;
+}
+
+#peringatanEmail {
+    color: red;
+    margin-top: 5px;
+}
+
+#peringatanNo {
+    color: red;
+    margin-top: 5px;
+}
+
+.submit a{
+    text-decoration: none;
+    color: black;
+}
